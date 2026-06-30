@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0243/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0243/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 紙舟先生全真直指
+  date: '2015-08-28 23:42:55.945625'
+  source:
+    repository: kanripo
+    path: KR5a0243
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0243_000-ZTDZ.yaml, hash: 'sha256:7337d0ca4aa4c7197f1912e2a1a87d8cbfa4121fd6650c93a5c1599bbcb67813'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0243_000-ZTDZ.markers.yaml, hash: 'sha256:bf88205a9a3eaf5f23dc9c1457b6e09602591209bd38ae3313febbd5f94b9b71'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0243_SJB_000-040382b
+    span:
+    - body
+    - 0
+    - 1679
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:2cb52cd3c129a9522d6907b1d5e349d107f01194472e914e831f1f9acd0b68d3
